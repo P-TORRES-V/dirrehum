@@ -1,4 +1,14 @@
 <resources>
     <string name="app_name">Login</string>
     <string name="Bienvenido">al SIGCP</string>
+    <string name="titulo_aviso1">RCG N° 004-2021-CG PNP/SECEJE-DIRREHUM del 30ENE2021</string>
+
+    <string name="aviso1">RCG N° 004-2021-CG PNP/SECEJE-DIRREHUM del 30ENE2021 ::: Modificar en parte la RCG N° 003-2021-CG PNP/SECEJE-DIRREHUM
+        de fecha 19ENE2021, en el extremo de su articulo 1 que modifica en parte la Directiva Institucional N° 017-2020-COMGEN-PNP/DIRREHUM-PNP-B,
+        en el contenido del cronograma de actividades para el proceso de asignación de cargos de Oficiales de Armas y Servicios de la PNP</string>
+
+    <string name="titulo_aviso2">Relación de Unidades Policiales que figuran pendientes de rendición de cuentas a la Unidad Ejecutora
+        002-DIVECO PNP por la asignación específica "alimentos y bebidas para el consumo humano" del año 2011 al 25 enero del 2021.</string>
+
+
 </resources>

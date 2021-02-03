@@ -10,5 +10,6 @@
     <color name="amarillo">#E2D925</color>
     <color name="white">#ffffff</color>
     <color name="invisible">#00000000</color>
+    <color name="fondo">#0D0D54BD</color>
 
 </resources>

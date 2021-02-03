@@ -8,11 +8,10 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="411dp"
-        android:layout_height="224dp"
+        android:layout_width="445dp"
+        android:layout_height="237dp"
         android:src="@drawable/sigcp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -45,7 +44,7 @@
         android:layout_marginBottom="25dp"
         android:ems="10"
         android:paddingLeft="10dp"
-        android:inputType="textPersonName"
+        android:inputType="number"
         android:hint="Ingrese CIP"
         app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword"
         app:layout_constraintEnd_toEndOf="parent"
@@ -68,7 +67,7 @@
         android:inputType="textPassword"
         android:background="@drawable/celda"
         android:hint="Contraseña"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton"
+        app:layout_constraintBottom_toTopOf="@+id/imbIngresar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.268"
         app:layout_constraintStart_toStartOf="parent"
@@ -76,7 +75,7 @@
         app:layout_constraintVertical_bias="0.888" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/imbIngresar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/white"
@@ -101,7 +100,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton"
+        app:layout_constraintTop_toBottomOf="@+id/imbIngresar"
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageButton
@@ -119,7 +118,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.471"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton"
+        app:layout_constraintTop_toBottomOf="@+id/imbIngresar"
         app:layout_constraintVertical_bias="0.452" />
 
     <ImageView
