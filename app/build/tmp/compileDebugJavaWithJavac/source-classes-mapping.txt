@@ -1,0 +1,28 @@
+com/example/login/Menu.java
+ com.example.login.Menu
+ com.example.login.Menu$1
+ com.example.login.Menu$2
+com/example/login/Adaptador.java
+ com.example.login.Adaptador
+com/example/login/ScreenItem.java
+ com.example.login.ScreenItem
+com/example/login/MainActivity.java
+ com.example.login.MainActivity
+ com.example.login.MainActivity$1
+com/example/login/Carnet.java
+ com.example.login.Carnet
+com/example/login/Entidad.java
+ com.example.login.Entidad
+com/example/login/DetalleItem.java
+ com.example.login.DetalleItem
+com/example/login/Avisos.java
+ com.example.login.Avisos
+ com.example.login.Avisos$1
+com/example/login/IntroViewPagerAdapter.java
+ com.example.login.IntroViewPagerAdapter
+com/example/login/BuildConfig.java
+ com.example.login.BuildConfig
+com/example/login/IntroActivity.java
+ com.example.login.IntroActivity
+ com.example.login.IntroActivity$1
+ com.example.login.IntroActivity$2
