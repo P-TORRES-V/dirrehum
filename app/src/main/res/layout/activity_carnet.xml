@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondo"
+    android:background="@drawable/img_fondo_carnet"
     android:rotation="0"
     android:orientation="vertical"
     android:visibility="visible"
-    tools:context=".MainActivity"
+    tools:context="app.dirrehum.aguila6.MainActivity"
     tools:visibility="visible">
 
     <ImageView
@@ -16,7 +16,7 @@
         android:layout_width="50dp"
         android:layout_marginTop="5dp"
         android:layout_height="50dp"
-        app:srcCompat="@drawable/esd"
+        app:srcCompat="@drawable/img_escudo_peru"
         tools:layout_editor_absoluteX="2dp"
         tools:layout_editor_absoluteY="45dp" />
 
@@ -31,7 +31,7 @@
             android:layout_width="174dp"
             android:layout_height="193dp"
             android:layout_marginTop="10dp"
-            app:srcCompat="@drawable/jkgg"
+            app:srcCompat="@drawable/img_perfil_policia"
             tools:layout_editor_absoluteX="113dp"
             tools:layout_editor_absoluteY="231dp" />
 
@@ -97,7 +97,7 @@
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:layout_marginTop="20dp"
-            app:srcCompat="@drawable/qrrtrrd"
+            app:srcCompat="@drawable/img_codigo_qr"
             tools:layout_editor_absoluteX="125dp"
             tools:layout_editor_absoluteY="639dp" />
 

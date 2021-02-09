@@ -1,10 +1,12 @@
-package com.example.login;
+package app.dirrehum.aguila6;
 
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.login.R;
 
 public class DetalleItem extends AppCompatActivity {
 

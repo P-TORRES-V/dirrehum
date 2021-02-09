@@ -10,7 +10,7 @@
         android:layout_height="150dp"
         android:layout_gravity="center"
         android:layout_margin="5dp"
-        android:src="@drawable/dirrehum" />
+        android:src="@drawable/img_dirrehum" />
 
     <LinearLayout
         android:layout_width="match_parent"

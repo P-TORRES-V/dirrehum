@@ -1,4 +1,4 @@
-package com.example.login;
+package app.dirrehum.aguila6;
 
 public class ScreenItem {
     String Intro, Tex;

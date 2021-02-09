@@ -1,9 +1,8 @@
-package com.example.login;
+package app.dirrehum.aguila6;
 
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -11,6 +10,8 @@ import android.widget.Adapter;
 import android.widget.AdapterView;
 import android.widget.ListAdapter;
 import android.widget.ListView;
+
+import com.example.login.R;
 
 import java.util.ArrayList;
 
@@ -44,11 +45,11 @@ public class Avisos extends AppCompatActivity {
     }
     private ArrayList<Entidad> GetArrayItems(){
         ArrayList<Entidad>listItems = new ArrayList<Entidad>();
-        listItems.add(new Entidad(R.drawable.pol, "RCG N° 004-2021-CG PNP", "personal DIRIN"));
-        listItems.add(new Entidad(R.drawable.hilux, "DIVECO PNP", "Personal PNP"));
-        listItems.add(new Entidad(R.drawable.hiluxx, "DOCENCIA", "Docente para Promocion 2019 II"));
-        listItems.add(new Entidad(R.drawable.hiluxxx, "DIRREHUM PNP", "Comunicado para personal que asciende"));
-        listItems.add(new Entidad(R.drawable.hyu, " PNP", "Aniversario de la PNP"));
+        listItems.add(new Entidad(R.drawable.img_dirrehum, "RCG N° 004-2021-CG PNP", "personal DIRIN"));
+        listItems.add(new Entidad(R.drawable.img_primer_anuncio, "DIVECO PNP", "Personal PNP"));
+        listItems.add(new Entidad(R.drawable.img_segundo_anuncio, "DOCENCIA", "Docente para Promocion 2019 II"));
+        listItems.add(new Entidad(R.drawable.img_tercer_anuncio, "DIRREHUM PNP", "Comunicado para personal que asciende"));
+        listItems.add(new Entidad(R.drawable.img_segundo_anuncio, " PNP", "Aniversario de la PNP"));
 
         return listItems;
 

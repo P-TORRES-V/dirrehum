@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Avisos">
+    tools:context="app.dirrehum.aguila6.Avisos">
 
     <ListView
         android:id="@+id/lvItems"

@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context="app.dirrehum.aguila6.MainActivity">
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="445dp"
         android:layout_height="237dp"
-        android:src="@drawable/sigcp"
+        android:src="@drawable/img_fondo_sigcp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -30,7 +30,7 @@
         app:layout_constraintHorizontal_bias="0.108"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        android:src="@drawable/texs" />
+        android:src="@drawable/img_texto_bienvenido" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
@@ -40,7 +40,7 @@
         android:layout_marginLeft="80dp"
         android:layout_marginEnd="80dp"
         android:layout_marginRight="80dp"
-        android:background="@drawable/celda"
+        android:background="@drawable/background_celda"
         android:layout_marginBottom="25dp"
         android:ems="10"
         android:paddingLeft="10dp"
@@ -52,6 +52,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
         app:layout_constraintVertical_bias="1.0" />
+
+
 
     <EditText
         android:id="@+id/editTextTextPassword"
@@ -65,7 +67,7 @@
         android:ems="10"
         android:paddingLeft="10dp"
         android:inputType="textPassword"
-        android:background="@drawable/celda"
+        android:background="@drawable/background_celda"
         android:hint="Contraseña"
         app:layout_constraintBottom_toTopOf="@+id/imbIngresar"
         app:layout_constraintEnd_toEndOf="parent"
@@ -79,7 +81,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/white"
-        android:src="@drawable/ingresar"
+        android:src="@drawable/button_ingresar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -95,7 +97,7 @@
         android:layout_marginTop="35dp"
         android:layout_marginEnd="80dp"
         android:layout_marginRight="80dp"
-        android:src="@drawable/linea"
+        android:src="@drawable/img_linea"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -113,7 +115,7 @@
         android:layout_marginRight="80dp"
         android:layout_marginBottom="100dp"
         android:background="@color/white"
-        android:src="@drawable/cont"
+        android:src="@drawable/backgruond_olvido_contrasena"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.471"
@@ -130,7 +132,7 @@
         android:layout_marginTop="24dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/dirrehum" />
+        app:srcCompat="@drawable/img_dirrehum" />
 
     <ImageView
         android:id="@+id/imageView6"
@@ -146,5 +148,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton2"
-        android:src="@drawable/pol" />
+        android:src="@drawable/img_letras_policia_nac_peru" />
 </androidx.constraintlayout.widget.ConstraintLayout>

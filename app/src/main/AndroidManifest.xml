@@ -9,11 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".Menu"></activity>
-        <activity android:name=".Carnet" />
-        <activity android:name=".Avisos" />
-        <activity android:name=".DetalleItem" />
-        <activity android:name=".IntroActivity">
+        <activity android:name="app.dirrehum.aguila6.Menu"></activity>
+        <activity android:name="app.dirrehum.aguila6.Carnet" />
+        <activity android:name="app.dirrehum.aguila6.Avisos" />
+        <activity android:name="app.dirrehum.aguila6.DetalleItem" />
+        <activity android:name="app.dirrehum.aguila6.IntroActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,7 +21,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
+        <activity android:name="app.dirrehum.aguila6.MainActivity" />
     </application>
 
 </manifest>
